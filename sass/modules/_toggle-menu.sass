@@ -1,0 +1,56 @@
+@use '../base/variables'
+@use '../base/base-mixins'
+
+@include base-mixins.mobile
+
+ nav
+    display: none
+
+ .menu-toggle
+    width: 40px
+    height: 30px
+    .one,.two,.three
+        background-color: variables.$primary-color
+        height: 5px
+        width: 80%
+        margin: 6px auto
+        transition-duration: 0.3s
+
+ .header-bottom.on
+    position: absolute
+    width: 100vw
+    height: 100vh
+    background-color: variables.$primary-color
+    z-index: 1
+    transition: 0.5s
+
+    .one,.two,.three
+        background-color: variables.$light-color
+
+ .header-bottom.on nav
+    display: block
+    ul
+        text-align: left
+        display: block
+        margin-top: 40px
+        a
+            margin-left: 15px
+            transition-duration: .5s
+            line-height: 5rem
+            display: block
+            color: variables.$light-color
+            border-bottom: variables.$link-color solid 1px
+
+ .header-bottom.on .menu-toggle
+    position: absolute
+    right: 5px
+    top: 5px
+
+ .header-bottom.on .menu-toggle .one
+    transform: rotate(45deg) translate(7px, 7px)
+
+ .header-bottom.on .menu-toggle .two
+    opacity: 0
+    
+ .header-bottom.on .menu-toggle .three
+    transform: rotate(-45deg) translate(8px, -9px)

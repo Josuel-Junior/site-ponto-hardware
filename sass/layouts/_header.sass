@@ -1,0 +1,95 @@
+@use '../base/variables'
+@use '../base/base-mixins'
+@use 'layouts-mixins'
+
+.header
+    background-color: variables.$bg-color
+    position: sticky
+    top: 0px
+    z-index: 2
+    &-top
+        background-color: variables.$secondary-bg-color
+        color: variables.$light-color
+        font-size: 1.8rem
+        
+        @include base-mixins.tablet
+         display: none
+
+        &-container
+          @include layouts-mixins.center-content
+          padding: 10px 0
+          strong
+            margin-right: 14px
+            font-weight: normal
+          i
+            margin: 5px
+          a
+            color: variables.$light-color
+          
+           
+.main-header
+  &-container
+    @include layouts-mixins.center-content
+    padding: 30px 0
+    
+    @include base-mixins.tablet
+     justify-content: space-evenly
+     align-items: center
+     
+    a, span, i
+      color: #FFF
+    #brand
+      font-weight: 900
+      font-size: 3rem
+      i
+        color: variables.$primary-color
+        font-size: 30px
+
+      @include base-mixins.tablet
+       font-size: 2rem
+       i
+        font-size: 25px
+      @include base-mixins.mobile
+       display: none
+      
+    #search-form
+      display: flex
+      align-items: center
+      justify-content: center
+      width: 45%
+      input
+        height: 40px
+      #search
+        width: 60%
+        @include layouts-mixins.arounded-input
+      @include base-mixins.mobile
+       width: 90%
+
+    .header-actions-menu
+      display: flex
+      align-items: center
+
+      .wishlist-container, .header-cart-container
+        @include layouts-mixins.header-icon
+      @include base-mixins.mobile
+       display: none
+
+
+.header-bottom
+  background-color: variables.$light-color
+  border-bottom: 2px solid variables.$section-bg-color
+  border-top: 3px solid variables.$primary-color
+
+  ul
+    @include layouts-mixins.center-content
+    max-width: 980px
+    padding: 14px 0
+    li
+      margin-right: 15px
+      a
+        color: variables.$link-color
+        border-bottom: 2px solid transparent
+        &:hover
+          color: variables.$primary-color
+          border-color: variables.$primary-color
+

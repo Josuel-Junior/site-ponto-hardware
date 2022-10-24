@@ -1,0 +1,26 @@
+@use '../base/base-mixins'
+@use 'layouts-mixins'
+
+.products-grid
+    @include layouts-mixins.center-content
+    flex-direction: column
+    padding: 25px 0
+    h2
+        font-size: 3rem
+        text-transform: uppercase
+        text-align: center
+        padding: 20px
+       
+        
+    &-container
+        justify-content: center
+        display: grid
+        grid-gap: 40px
+        grid-template-columns: auto auto auto auto
+        
+        @include base-mixins.tablet
+         grid-gap: 50px
+         grid-template-columns: 35% 35%
+
+        @include base-mixins.mobile
+         grid-template-columns: 80%

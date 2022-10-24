@@ -1,0 +1,36 @@
+@use '../base/variables'
+
+@mixin center-content
+ max-width: variables.$container-width
+ margin: 0 auto
+ display: flex
+ justify-content: space-between
+
+@mixin header-icon
+ position: relative
+ display: flex
+ flex-direction: column
+ text-align: center
+ margin-right: 30px 
+    
+ .qty
+        position: absolute
+        top: -10px
+        right: -10px
+        background-color: variables.$primary-color
+        height: 28px
+        width: 28px
+        border-radius: 50%
+        display: flex
+        align-items: center
+        justify-content: center
+ i
+        margin-bottom: 3px
+ a:hover
+        color: variables.$primary-color
+
+@mixin arounded-input
+ height: 40px
+ border-top-left-radius: 20px
+ border-bottom-left-radius: 20px
+ padding-left: 25px

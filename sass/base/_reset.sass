@@ -1,0 +1,33 @@
+@use 'variables'
+@use 'base-mixins'
+
+
+html
+    font-size: 62.5%
+    @include base-mixins.tablet
+     font-size: 55.0%
+    @include base-mixins.mobile
+      font-size: 62.5%
+    
+*
+    padding: 0
+    margin: 0
+    box-sizing: border-box
+    font-family: 'Open Sans', sans-serif
+    font-size: 2rem
+i
+    color: variables.$primary-color
+a
+    text-decoration: none
+    transition: .4s
+    &:hover
+        color: variables.$primary-color
+input
+    border: none
+    outline: none
+
+ul
+    list-style: none
+
+
+   

@@ -1,0 +1,48 @@
+@use '../base/variables'
+@use '../base/base-mixins'
+@use 'modules-mixins'
+
+.banner
+    width: 30%
+    height: 200px
+    position: relative
+    color: variables.$light-color
+    transition: .4s
+    @include modules-mixins.center-bg
+    background-size: 100%
+    @include base-mixins.mobile
+     width: 100%
+     margin: 10px auto
+
+    &:hover
+        background-size: 120%
+    &-cover
+        background-color: variables.$primary-color
+        width: 70%
+        height: 100%
+        opacity: .8
+        border-bottom-right-radius: 90px
+    &-content
+        position: absolute
+        top: 0
+        left: 0
+        padding: 20px
+        h2
+            font-size: 1.6rem
+            margin-bottom: 10px
+            max-width: 70%
+        a
+            font-size: 2rem
+            color: variables.$light-color
+            font-weight: bold
+            display: flex
+            align-items: center
+        i
+            color: variables.$light-color
+            margin-left: 10px 
+#banner-1
+    background-image: url('../../img/placa-de-video-banner.png')
+#banner-2
+    background-image: url('../../img/headset-banner.png')
+#banner-3
+    background-image: url('../../img/cadeira-banner.png')

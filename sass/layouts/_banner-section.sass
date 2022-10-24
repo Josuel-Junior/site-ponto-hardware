@@ -1,0 +1,16 @@
+@use '../base/_base-mixins'
+@use 'layouts-mixins'
+
+.banners
+    @include layouts-mixins.center-content
+    padding-top: 35px
+
+    @include base-mixins.tablet
+     width: 95% 
+     
+     @include base-mixins.mobile
+      flex-direction: column
+      justify-content: center
+      align-items: center
+      padding-top: 10px
+      
