@@ -16,7 +16,7 @@ html {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: "Open Sans";
+  font-family: "Open Sans", sans-serif;
   font-size: 2rem;
 }
 
@@ -446,6 +446,27 @@ ul {
 }
 .footer-payments i:hover {
   color: #0086ff;
+}
+.footer-cpyrights {
+  border-top: solid 1px #FFF;
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+  font-weight: 400;
+}
+@media (max-width: 767px) {
+  .footer-cpyrights strong {
+    font-size: 1.8rem;
+  }
+}
+.footer-cpyrights a {
+  color: #f8e38d;
+  font-weight: 700;
+}
+@media (max-width: 767px) {
+  .footer-cpyrights a {
+    font-size: 1.6rem;
+  }
 }
 
 .btn {
