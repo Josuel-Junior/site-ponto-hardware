@@ -21,7 +21,7 @@ Destaco que pode ter algum detalhe a ser melhorado pois precisamos sempre evolui
 
 ## Layout mobile
 
-![Mobile](https://github.com/Josuel-Junior/projects-images/blob/master/image%20Ponto-Hardware/Layout-mobile.PNG?raw=true)
+![Mobile](https://github.com/Josuel-Junior/projects-images/blob/master/image%20Ponto-Hardware/Layout-mobile.png)
 ![Mobile](https://raw.githubusercontent.com/Josuel-Junior/projects-images/master/image%20Ponto-Hardware/Layout-mobile-menu.png))
 
 
