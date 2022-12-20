@@ -12,17 +12,17 @@ Destaco que pode ter algum detalhe a ser melhorado pois precisamos sempre evolui
 
 
 ## Layout web
-![Web ](https://github.com/Josuel-Junior/projects-images/blob/master/image%20Ponto-Hardware/Layout-web.PNG?raw=true)
+![Web ](https://github.com/Josuel-Junior/projects-images/blob/master/image%20Ponto-Hardware/Layout-web.PNG)
 
 
 ## Layout tablet
-![Tablet ](https://github.com/Josuel-Junior/projects-images/blob/master/image%20Ponto-Hardware/Layout-tablet.PNG?raw=true)
+![Tablet ](https://github.com/Josuel-Junior/projects-images/blob/master/image%20Ponto-Hardware/Layout-tablet.PNG)
 
 
 ## Layout mobile
 
 ![Mobile](https://raw.githubusercontent.com/Josuel-Junior/projects-images/master/image%20Ponto-Hardware/Layout-mobile.PNG)
-![Mobile](https://raw.githubusercontent.com/Josuel-Junior/projects-images/master/image%20Ponto-Hardware/Layout-mobile-menu.png))
+![Mobile](https://raw.githubusercontent.com/Josuel-Junior/projects-images/master/image%20Ponto-Hardware/Layout-mobile-menu.png)
 
 
 
