@@ -3,11 +3,8 @@ https://josuel-junior.github.io/Site-Ponto-Hardware/
 
 # Sobre o projeto
 
-O site Ponto Hardware é um site fictício desenvolvido para praticar os conhecimentos de HTML CSS JAVASCRIPT e SASS.
-O site foi criado usando o padrão de arquitetura com intuito de facilitar a manutenção do código futuramente.
-
-Destaco que pode ter algum detalhe a ser melhorado pois precisamos sempre evoluir e melhorar nossos códigos. 
-
+O site Ponto Hardware é um site fictício desenvolvido com HTML CSS JAVASCRIPT e SASS.
+O site foi criado seguindo os padrões de arquitetura com intuito de facilitar a manutenção do código.
 
 
 
