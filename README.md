@@ -1,5 +1,5 @@
 # Site Ponto Hardware
-https://josuel-junior.github.io/Site-Ponto-Hardware/
+https://josuel-junior.github.io/site-ponto-hardware/
 
 # Sobre o projeto
 
